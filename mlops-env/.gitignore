@@ -1,0 +1,38 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Data files (use DVC for these)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.h5
+
+# Model artifacts (use MLflow/model registry)
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.env
+mlops-env/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# MLflow local runs
+mlruns/
+mlartifacts/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF

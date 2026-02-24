@@ -1,0 +1,6 @@
+Dataset: Iris
+Samples: 150
+Features: 4
+Classes: 3
+Train size: 120
+Test size: 30
