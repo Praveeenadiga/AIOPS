@@ -15,7 +15,7 @@ COPY requirement.txt .
 
 # Install Python dependencies
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN pip install -r requirement.txt
 
 # Copy project files
 COPY . .
